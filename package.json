@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "sass src/style.scss dist/components.css --style=compressed && npx @tailwindcss/cli -i src/tailwind.css -o dist/utilities.css --minify && cat dist/utilities.css dist/components.css > dist/style.css",
-    "start": "python3 -m http.server 4173 --directory dist"
+    "start": "python3 -m http.server 4173 --directory dist",
+    "optimize:images": "node scripts/optimize-images.cjs"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +17,7 @@
     "@tailwindcss/cli": "^4.3.5",
     "playwright": "^1.65.0",
     "sass": "^1.108.1",
+    "sharp": "^0.35.5",
     "tailwindcss": "^4.3.5"
   }
 }

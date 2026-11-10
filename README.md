@@ -34,3 +34,10 @@ git push -u origin main
 ```
 
 Não há domínio personalizado configurado. A publicação e o workflow remoto precisam ser verificados após conectar o repositório.
+
+## Revisão Core Web Vitals
+
+- Hero decorativo convertido para WebP responsivo (640, 1280 e 1920 px), descoberto no HTML e com preload responsivo de alta prioridade. O mesmo srcset é usado no preload e na imagem para evitar downloads duplicados.
+- JPEG original: 149.668 bytes. WebP: 15.176 / 37.352 / 51.010 bytes (redução de 66% a 90% por arquivo). Marca: 23.530 → 14.178 bytes. Originais mantidos para regeneração com `npm run optimize:images`.
+- Hero mantém espaço reservado; marca tem proporção explícita. Grids permitem redução dos filhos para evitar largura mínima de controles. Mantidos fontes locais, imagens de clientes com dimensões e lazy loading, detalhes nativos e JavaScript mínimo, sem bibliotecas de runtime ou terceiros.
+- Build Sass/Tailwind passou. Nova tentativa de Chromium/Playwright bloqueada pelo sandbox macOS. LCP, INP e CLS não foram medidos; redução de bytes não equivale a melhoria comprovada das métricas. Nenhum novo analytics ou coletor de dados foi introduzido.
