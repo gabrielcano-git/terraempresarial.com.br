@@ -1,0 +1,66 @@
+{
+  "original": {
+    "html_bytes": 171578,
+    "counts": {
+      "h1": 0,
+      "header": 0,
+      "nav": 0,
+      "main": 0,
+      "footer": 0,
+      "script": 24,
+      "link": 24,
+      "img": 14
+    },
+    "description": [],
+    "telephone": [
+      {
+        "type": "number",
+        "name": "form_fields[field_c258f82]",
+        "id": "form-field-field_c258f82",
+        "class": "elementor-field elementor-size-sm  elementor-field-textual",
+        "placeholder": "Telefone",
+        "required": "required",
+        "aria-required": "true",
+        "min": "",
+        "max": ""
+      }
+    ],
+    "images_missing_alt": 0,
+    "images_missing_dimensions": 12,
+    "insecure_links": [
+      "http://instagram.com/terraempresarial/",
+      "http://facebook.com/terraempresarialoficial"
+    ]
+  },
+  "novo": {
+    "html_bytes": 10982,
+    "counts": {
+      "h1": 1,
+      "header": 1,
+      "nav": 1,
+      "main": 1,
+      "footer": 1,
+      "script": 1,
+      "link": 2,
+      "img": 15
+    },
+    "description": [
+      {
+        "name": "description",
+        "content": "Gestão empresarial e contabilidade em São Paulo. Conheça os planos contábeis, serviços e certificados digitais da Terra Empresarial."
+      }
+    ],
+    "telephone": [
+      {
+        "id": "telefone",
+        "type": "tel",
+        "name": "telefone",
+        "autocomplete": "tel",
+        "required": null
+      }
+    ],
+    "images_missing_alt": 0,
+    "images_missing_dimensions": 0,
+    "insecure_links": []
+  }
+}
